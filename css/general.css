@@ -1,0 +1,193 @@
+@charset "UTF-8";
+/* CSS Document */
+	
+body {
+	background-image: url(../images/pattern.jpg);
+	background-size: 55%;
+	min-width: 768px;
+	font-family: Arial, Helvetica, sans-serif;
+	font-size: 20px;
+	color: #6c6c6c;
+	line-height: 1.5rem;
+}
+
+img {
+	width: 100%;
+}
+
+.logo {
+	display:block;
+	width: 4.5rem;
+	float: left;
+	margin-left: 1.5rem;
+}
+
+/*.baseline {
+	background-image: url(../images/baseline.svg);
+} */
+
+/* --------------------------------------------------------------------- Masthead */
+
+.masthead {
+	background-color: #4B8280;
+	height: 4.5rem;
+	position: fixed;
+	width: 100%;
+	z-index: 100; /* Puts this emlement on top of the rest */
+}
+
+nav {
+	width: 38%;
+	float: right;
+}
+
+nav ul {
+	text-align: center;	
+}
+
+nav li {
+	display: inline;	
+}
+
+nav a {
+	display: inline-block;
+	margin: 1.5rem;
+	color: #CCC;
+	text-decoration: none;
+}
+
+/* --------------------------------------------------------------------- Content */
+
+.whitebackground {
+	background-color: #FFF;
+}
+
+.billboard {
+	height: 40rem;
+	background-size: cover;
+	background-image: url(../images/rocks.jpg);
+	background-repeat: no-repeat;
+	background-position: center center;
+}
+
+.billboard h1 {
+	font-family: 'Stalemate', cursive;
+	font-size: 4rem;
+	color: #4B8280;
+	text-align: center;
+	background-color: rgba(204,204,204,.8);
+	opacity: 5;
+	padding: 4.5rem 0;
+	position: relative;
+	top: 15rem;
+	height: 10rem;
+}
+
+.wrapper {
+	overflow: hidden; /* Will wrap around its children when they float */ 
+	padding: 4.5rem 10% 0;
+}
+
+h2 {
+	font-family: 'Stalemate', cursive;
+	font-size: 5.5rem;
+	color: #4B8280;
+	text-align: center;
+	padding: 3rem 0;
+}
+
+#about, /* # hooks an ID */
+#portfolio {
+	clear: both;   /* Will stack after each other if their children have floats */
+	padding: 5rem 5%;
+}
+
+p {
+	margin: 1.5rem 0 1.5rem 0;
+}
+
+.tara {
+	width: 45%;
+	float: left;
+	margin: 0 2.5% 1.5rem;
+}
+
+.artwork {
+	clear: both;
+	margin: 0 0 3rem 0;
+	overflow: hidden;
+}
+
+.artwork:last-child {
+	margin: 0;
+}
+
+.artwork img {
+	width: 47.5%;
+	float: left;
+	margin: 0 5% 0 0;
+	
+}
+
+.artwork h3 {
+	font-family: 'Stalemate', cursive;
+	font-size: 3rem;
+	color: #77dec7;
+	margin: 2rem 0 1rem 0;
+}
+
+.artwork2 {
+	clear: both;
+	margin: 0 0 3rem 0;
+	overflow: hidden;
+}
+
+.artwork2:last-child {
+	margin: 0;
+}
+
+.artwork2 img {
+	width: 47.5%;
+	float: right;
+	margin: 0 0 0 5%;
+	
+}
+
+.artwork2 h3 {
+	font-family: 'Stalemate', cursive;
+	font-size: 3rem;
+	color: #77dec7;
+	margin: 2rem 0 1rem 0;
+}
+
+/* --------------------------------------------------------------------- Footer */
+
+footer {
+	background-color: #4B8280;
+	height: 12rem;
+	text-align: center;
+	padding: 1.5rem 40% 0;
+	overflow: hidden;
+}
+
+footer p {
+	color: #ccc;
+	clear: both;
+	font-size: 16px;
+}
+
+footer ul {
+	background-color: #4B8280;
+	padding: 5%;
+	overflow: hidden;
+}
+
+footer li {
+	width: 30%;
+	margin-right: 5%;
+	float: left;
+}
+
+footer li:last-child {
+	margin-right: 0;
+}
